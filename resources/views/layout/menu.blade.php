@@ -33,11 +33,11 @@
         border: none;
     }
     .navbar-full {
-        background-color: black;
     }
 </style>
 <body>
-    <header class="navbar-full">
+    <header >
+        <div class="navbar-full">
         <nav class="navbar navbar-expand-lg bg-body-tertiary ">
             <div class="container-fluid ">
 
@@ -78,6 +78,7 @@
             <button type="button" class="btn btn-info btn-cadastro">Cadastre-se Grátis</button>
             </div>
           </nav>
+        </div>
     </header>
 
     @yield('content')
