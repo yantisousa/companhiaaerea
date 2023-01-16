@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\CadastroController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +19,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home.home');
 });
+Route::get('/login', [LoginController::class, 'index'])->name('login.index');
+Route::post('/login/autentic', [LoginController::class, 'authentication'])->name('login.authentication');
+Route::get('/cadastro', [CadastroController::class, 'index']);
+Route::post('/cadastro/create', [CadastroController::class, 'create'])->name('cadastro.create');
+

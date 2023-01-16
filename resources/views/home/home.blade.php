@@ -340,7 +340,7 @@
         </div>
         <div class="card card-people" style="width: 700px;" style="height: 420px;">
             <img src="{{ url('assets/img/people.jpg') }}" style="height: 310px;" class="card-img-top" alt="...">
-            <div class="card-body card-ofertas";">
+            <div class="card-body card-ofertas">
                 <p class="card-text">Se você ainda não definiu o seu destino, talvez te <br> interesse ver a nossa seção de
                     ofertas.</p>
                 <button class="btn btn-info btn-ofertas">Ver ofertas
