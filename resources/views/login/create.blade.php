@@ -35,7 +35,7 @@
       </div>
       <div class="col-12">
         <div class="mb-3">
- 
+
         <input type="date" class="form-control" id="exampleFormControlInput1" name="data" placeholder="Nome Completo">
       </div>
       <div class="col-12">
@@ -45,17 +45,17 @@
       </div>
       <div class="col-12">
         <div class="mb-3">
-        <input class="form-control" type="password" id="exampleFormControlInput1" name="senha" placeholder="Senha"></input>
+        <input class="form-control" type="password" id="exampleFormControlInput1" name="password" placeholder="Senha"></input>
 
       </div>
       </div>
       <div class="d-grid gap-2">
         <button class="btn btn-primary" type="submit">Entrar</button>
       </div>
-    </div> 
+    </div>
 </form>
     </div>
-   
+
   </div>
 </div>
 @endsection
